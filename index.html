@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube clone</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+</head>
+
+<body>
+<div class="header">
+   
+
+    <img src="data:image/png;base64,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" alt="">
+
+    <div>
+    <input type="text" id="inp">
+
+    <button onclick="searchVideos()" id="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+</div>
+</div>
+
+  
+ <div id="show_video"></div>
+</body>
+
+</html>
+<script src="index.js"></script>
+<script
+src="https://kit.fontawesome.com/24c494a6b6.js"
+crossorigin="anonymous"
+></script>
+
+
+
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/kY-qEmb8NbQ" title="YouTube video player"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe> -->
